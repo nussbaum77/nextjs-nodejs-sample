@@ -33,7 +33,7 @@ npm install
 3. Create an .env.local file in the root directory of the project and add your OpenAI API key:
 
 ```sh
-OPENAI_API_KEY=your_api_key_here
+NEXT_PUBLIC_OPENAI_API_KEY=your_api_key_here
 ```
 Replace your_api_key_here with your actual OpenAI API key.
 
