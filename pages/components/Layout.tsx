@@ -21,22 +21,22 @@ const Layout: React.FC<LayoutProps> = ({ title, description, children }) => {
           <ul>
             <li>
               <Link href="/">
-                Home
+                Demo Header 1
               </Link>
             </li>
             <li>
               <Link href="/">
-                About
+                Demo Header 2
               </Link>
             </li>
             <li>
               <Link href="/">
-                Projects
+                Demo Header 3
               </Link>
             </li>
             <li>
               <Link href="/">
-                Contact
+                Demo Header 4
               </Link>
             </li>
           </ul>

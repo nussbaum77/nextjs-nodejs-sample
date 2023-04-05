@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const openaiApiKey = '***********';
+const openaiApiKey = `${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`;
 
 
 export async function fetchAINews(): Promise<string[]> {
@@ -8,7 +8,7 @@ export async function fetchAINews(): Promise<string[]> {
     const response = await axios.post(
       'https://api.openai.com/v1/engines/text-davinci-003/completions',
       {
-        prompt: 'Summarize the top AI or Machine Learning news article today.',
+        prompt: 'Summarize the top AI or Machine Learning news article today. Please provide the URL for the article',
         max_tokens: 100,
         n: 5,
         stop: null,
