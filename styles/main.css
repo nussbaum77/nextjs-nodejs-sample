@@ -1,0 +1,130 @@
+/* Reset some default styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the font for the entire application */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Add some basic styling for the main content */
+main {
+  padding: 2rem;
+}
+
+/* ... existing styles ... */
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.news-block {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 200px;
+}
+
+.news-block img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.news-block a {
+  color: #333;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.news-block a:hover {
+  text-decoration: underline;
+}
+
+/* ... existing styles ... */
+
+.red-header {
+  color: red;
+}
+
+.red-link {
+  color: red;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.news-block {
+  background-color: #f8f8f8;
+  border: 2px solid #f86262;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+.news-block img {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.news-block a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.news-block a:hover {
+  text-decoration: underline;
+}
