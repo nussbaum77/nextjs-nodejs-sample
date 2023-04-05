@@ -20,8 +20,8 @@ NextJS AI News, is a sample web application built with Next.js, TypeScript, and 
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/[YOUR_PROJECT_NAME].git
-cd [YOUR_PROJECT_NAME]
+git clone https://github.com/nussbaum77/[YOUR_PROJECT_NAME].git
+cd nextjs-nodejs-sample
 ```
 
 2. Install the dependencies:
