@@ -45,3 +45,5 @@ npm run dev
 ```
 
 2. Open your browser and navigate to http://localhost:3000. The application should be running and displaying the AI-generated news summaries.
+
+![Alt text](screenshot-nextopenainode-demo.png?raw=true "Demo")
